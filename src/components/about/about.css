@@ -1,7 +1,8 @@
 .about_container {
-    height: 50vh;
     display: grid;
-    gap: 15%;
+    grid-auto-rows: 1fr;
+    gap: 2.5rem;
+    justify-content: center;
 }
 
 .about_me {
@@ -79,6 +80,9 @@
         grid-template-columns: 1fr;
         gap: 0;
     }
+    .about_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .about_me {
         width: 50%;
         margin: 2rem auto 4rem;
@@ -98,10 +102,17 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+    .about_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .about_content {
+        /* grid-template-columns: 1fr 1fr; */
+        /* width: 70%; */
         text-align: center;
     }
     .about_content p {
+        /* width: 70%; */
+        /* margin: 0 auto 3rem; */
         margin: 1.5rem 0;
     }
 }
