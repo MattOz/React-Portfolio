@@ -1,26 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/testImage.jpg'
 import { FaAward } from 'react-icons/fa'
-
-
-// const data = [
-//   {
-//     id: 1,
-//     title: 'Title 1',
-//     body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-//   },
-//   {
-//     id: 2,
-//     title: 'Title 2',
-//     body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-//   },
-//   {
-//     id: 3,
-//     title: 'Title 3',
-//     body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-//   },
-// ]
 
 const About = () => {
   return (
@@ -30,11 +10,6 @@ const About = () => {
 
       <div className='container about_container'>
         
-        {/* <div className='about_me'>
-          <div className='about_me-image'>
-            <img src={ME} alt='about image' />
-          </div>
-        </div> */}
       
 
       <div className='about_content'>
