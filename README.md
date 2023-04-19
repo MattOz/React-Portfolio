@@ -23,6 +23,7 @@ npm install
 
 ## Usage
 [Portfolio Live Link](https://mattoz.github.io/React-Portfolio/#)
+
 To run the application locally, use the following command:
 ```
 npm start
